@@ -1,4 +1,4 @@
-import { About, Hero, Navbar } from "./components"
+import { About, Hero, Navbar, Service } from "./components"
 
 
 const App = () => {
@@ -19,6 +19,7 @@ const App = () => {
       <div className="px-16 flex justify-center items-start sm:px-16 px-6">
         <div className="xl:max-w-[1280px] w-full">
           <About />
+          <Service />
         </div>
       </div>
     </div>

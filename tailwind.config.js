@@ -11,6 +11,7 @@ module.exports = {
         para: "#141E15",
         box: "#0D4512E5",
         border: "#26582A",
+        
 
 
       },

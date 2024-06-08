@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About"
+import Service from "./Service";
 
 
 
@@ -9,5 +10,6 @@ import About from "./About"
 export {
     Navbar,
     Hero,
-    About
+    About,
+    Service
 }
