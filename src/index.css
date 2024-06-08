@@ -18,3 +18,10 @@
     color: #ffffff;
     transition: .4s ease-out;
 }
+
+.nav_link:hover {
+    border-bottom: 1px solid #475C46;
+    transition: .4s ease-in-out;
+    padding-top: 20px;
+    
+}
