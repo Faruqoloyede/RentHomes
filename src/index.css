@@ -38,8 +38,8 @@ html {
 .feedback_card {
     border: 3px solid #085C11E8;
     border-top-left-radius: 20px;
-    border-top-right-radius: 100px;
+    border-top-right-radius: 90px;
     border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 90px;
    
 }

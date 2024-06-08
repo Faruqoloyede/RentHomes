@@ -8,6 +8,7 @@ import green from "./green.png";
 import secure from "./secure.png";
 import facebook from "./facebook.png";
 import x from "./x.png";
+import instagram from "./instagram.svg";
 
 export {
     home,
@@ -19,5 +20,6 @@ export {
     green,
     secure,
     facebook,
-    x
+    x,
+    instagram
 };

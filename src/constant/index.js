@@ -1,4 +1,4 @@
-import { res, green, secure, david, ryan, alex } from "../assets"
+import { res, green, secure, david, ryan, alex, facebook, x, instagram } from "../assets"
 
 export const navlinks = [
     {
@@ -63,5 +63,78 @@ export const feedback = [
         icon: ryan,
         name: "Ryan Bennett",
         text: "“Our experience was so good with renting services exceeded all expectations. Demonstrated a deep understanding”."
+    }
+]
+
+export const footerlinks = [
+    {
+        title: "Useful links",
+        links: [
+            {
+                name: "About Us",
+                link: "about"
+            },
+            {
+                name: "Events",
+                link: "event"
+            },
+            {
+                name: "Blogs",
+                link: "blog"
+            },
+            {
+                name: "FAQ",
+                liink: "faq"
+            }
+        ]
+    },
+    {
+        title: "Main Menu",
+        links: [
+            {
+                name: "Home",
+                link: "home"
+            },
+            {
+                name: "Offers",
+                link: "offer"
+            },
+            {
+                name: "Menu",
+                link: "menu"
+            },
+            {
+                name: "Reservation",
+                link: "reservation"
+            }
+        ]
+    },
+    {
+        title: "Contact us",
+        links: [
+            {
+                name: "example.com",
+                link: "example.com"
+            },
+            {
+                name: "+64 958 258 966"
+            },
+            
+        ]
+    }
+]
+
+export const social = [
+    {
+        id: 1,
+        icon: facebook
+    },
+    {
+        id: 2,
+        icon: x
+    },
+    {
+        id: 3,
+        icon: instagram
     }
 ]
