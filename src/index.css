@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .btn_primary:hover {
     background: none;
     border: 1px solid #085C11E8;
@@ -24,4 +28,8 @@
     transition: .4s ease-in-out;
     padding-top: 20px;
     
+}
+
+.side_bar {
+    transition: 1s ease-out;
 }

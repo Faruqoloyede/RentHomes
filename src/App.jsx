@@ -16,7 +16,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="px-16 flex justify-center items-start">
+      <div className="px-16 flex justify-center items-start sm:px-16 px-6">
         <div className="xl:max-w-[1280px] w-full">
           <About />
         </div>
