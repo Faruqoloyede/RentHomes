@@ -22,7 +22,7 @@ const Navbar = () => {
         <div onClick={()=> setToggle(true)}>
           <GiHamburgerMenu className="w-[28px] h-[28px] object-contain text-logo" />
         </div>
-        <div className={`${toggle ? "right-[0]" : "hide"} bg-logo absolute top-0 right-0 w-[200px] h-[70%] z-10 p-3 side_bar`}>
+        <div className={`${toggle ? "right-[0]" : "right-[-100%]"} bg-logo absolute top-0 right-0 w-[200px] h-[70%] z-10 p-3 side_bar`}>
           <IoClose className="w-[28px] h-[28px] object-contain text-white mb-5" onClick={()=> setToggle(false)} />
           <ul className="list-none flex flex-col items-start">
             {navlinks.map((item)=>(
