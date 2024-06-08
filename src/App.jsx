@@ -1,34 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { About, Hero, Navbar } from "./components"
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='bg-bg w-full overflow-hidden '>
+      <div className="flex justify-center items-center px-16">
+        <div className="xl:max-w-[1280px] w-full">
+          <Navbar />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      {/* HERO SECTION */}
+      <div className="flex justify-center items-start px-16">
+        <div className="xl:max-w-[1280px] w-full">
+          <Hero />
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <div className="px-16 flex justify-center items-start">
+        <div className="xl:max-w-[1280px] w-full">
+          <About />
+        </div>
+      </div>
+    </div>
   )
 }
 
