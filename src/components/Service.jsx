@@ -8,10 +8,10 @@ const Service = () => {
       <div className='flex sm:flex-row flex-col items-center justify-between gap-4 mt-5'>
             {services.map((item)=>(
                 <div className="bg-text flex flex-col items-center p-4 w-full max-w[450px] h-[250px] rounded-[30px]" key={item.id}>
-                    <img src={item.icon} alt="responsive" className="w-[80px] object-contain w-full" />
+                    <img src={item.icon} alt="responsive" className="w-[80px]" />
                     <div>
                         <h4 className="text-white font-bold text-[20px] mt-3 font-poppins">{item.title}</h4>
-                        <p className="text-white font-poppins mt-3 leading-[20px]">{item.text}</p>
+                        <p className="text-white font-poppins mt-3 leading-[20px] text[16px]">{item.text}</p>
                     </div>
                 </div>
             ))}

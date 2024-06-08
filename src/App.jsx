@@ -1,4 +1,4 @@
-import { About, Hero, Navbar, Service } from "./components"
+import { About, Hero, Navbar, Service, Testimonial } from "./components"
 
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
         <div className="xl:max-w-[1280px] w-full">
           <About />
           <Service />
+          <Testimonial />
         </div>
       </div>
     </div>

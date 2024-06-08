@@ -1,4 +1,4 @@
-import { res, green, secure } from "../assets"
+import { res, green, secure, david, ryan, alex } from "../assets"
 
 export const navlinks = [
     {
@@ -41,5 +41,27 @@ export const services = [
         icon: secure,
         title: "Security",
         text: "Ensuring swift communication and quick solutions for all your rental needs."
+    }
+]
+
+export const feedback = [
+    {
+        id: 1,
+        icon: david,
+        name: "David Anderson",
+        text: "“I loved the experience, renting a home was an pleasure. From the communication was seamless and professional”."
+        
+    },
+    {
+        id: 2,
+        icon: alex,
+        name: "Alex Mitchell",
+        text: "“It was an Amazing Experience, the attention to detail, personalized approach made the entire process stress-free”."
+    },
+    {
+        id: 3,
+        icon: ryan,
+        name: "Ryan Bennett",
+        text: "“Our experience was so good with renting services exceeded all expectations. Demonstrated a deep understanding”."
     }
 ]
