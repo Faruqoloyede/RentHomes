@@ -1,5 +1,7 @@
 import { footerlinks } from "../constant"
-import { social } from "../constant"
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -24,10 +26,12 @@ const Footer = () => {
                 </div>
             ))}
       </div>
-      <div className="flex flex-wrap items-center justify-center sm:justify-start mt-5 gap-5">
-        {social.map((item)=>(
-            <img src={item.icon} key={item.id} className="w-[40px] h-[40px] object-fit cursor-pointer bg-text mr-6 p-3 rounded-full" />
-        ))}
+      <div className="flex flex-wrap items-center justify-center sm:justify-start mt-5 gap-10">
+          <div className="flex items-center gap-5">
+          <FaFacebook className="cursor-pointer text-para p-2 text-[35px] rounded-full border border-border hover:bg-text hover:text-white " />
+          <FaInstagram className="cursor-pointer text-para p-2 text-[35px] rounded-full border border-border hover:bg-text hover:text-white" />
+          <FaXTwitter className="cursor-pointer text-para p-2 text-[35px] rounded-full border border-border hover:bg-text hover:text-white" />
+          </div>
         <p className="text-para text-[16px] font-poppins ml-5">copyright@ 2023 | all right reserved</p>
       </div>
     </div>
